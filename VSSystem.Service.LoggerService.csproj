@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\NETStd\Libraries\VSSystem.Data\VSSystem.Data.csproj" />
+    <ProjectReference Include="..\VSSystem.Hosting\VSSystem.Hosting.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+    <FileVersion>1.0.5</FileVersion>
+    <Version>1.0.5</Version>
+    <ApplicationIcon>eiq.ico</ApplicationIcon>
+    <AssemblyName>LoggerService</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <Description />
+    <Company>Evidence IQ</Company>
+    <Authors>Evidence IQ</Authors>
+    <Copyright>Evidence IQ</Copyright>
+  </PropertyGroup>
+</Project>
